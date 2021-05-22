@@ -1,0 +1,134 @@
+body{
+  margin:0px auto;
+  width:100%;
+}
+.heading , .home{
+  font-family: 'Bitter', serif;
+}
+.container{
+  scroll-behavior: smooth;
+}
+section {
+    padding-top:20vh;
+    padding-bottom:20vh;
+}
+#intern{
+    background-image: url("https://media.istockphoto.com/vectors/abstract-black-geometric-dynamic-presentation-background-vector-id1171433089?k=6&m=1171433089&s=170667a&w=0&h=uTavRvEjsJQ9EISNXrlzG_ko6NMc8YxcZEDhlFWbUfc=");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#home{
+    background-image: url("https://static.wixstatic.com/media/8d9013_7ed75c2df2fc448abbeee8f31984f879~mv2.jpg/v1/fill/w_752,h_338,al_c,q_80,usm_0.66_1.00_0.01/Portfolio%20Background.webp");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#about{
+    background-image: url("https://image.freepik.com/free-photo/nice-business-desk-black-background_24972-1177.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Piazzolla', serif;
+}
+#project{
+    background-image: url("https://i0.wp.com/microfiber.shaxon.com/wp-content/uploads/2018/10/iStock-675705028_super-e1531980674867.jpg?ssl=1");
+    opacity:0.9;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#skill{
+    /*background-image:url("https://image.freepik.com/free-photo/desk-office-top-view-with-computer-notepad-pen-coffee-plant-black-background_149391-114.jpg");*/
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a665c883-531f-491e-af67-198bb5206ea6/d3n15qk-e549fda4-cbdf-41fc-8936-77ef3f68f82b.jpg/v1/fill/w_900,h_390,q_75,strp/new_portfolio_background_by_larundel_d3n15qk-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0zOTAiLCJwYXRoIjoiXC9mXC9hNjY1Yzg4My01MzFmLTQ5MWUtYWY2Ny0xOThiYjUyMDZlYTZcL2QzbjE1cWstZTU0OWZkYTQtY2JkZi00MWZjLTg5MzYtNzdlZjNmNjhmODJiLmpwZyIsIndpZHRoIjoiPD05MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5ALiWd7MTifwUcYDrOn2C_IOWNCzbu3b-A8oxA2YBwE");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#contact{
+   /* background-image:url("https://image.shutterstock.com/image-photo/call-us-on-wooden-blocks-260nw-214070617.jpg");*/
+   background-image:url("https://webhomes.com/images/thinking-plus-innovation/webhomes-thinking-plus-innovation-the-new-web.jpg");
+    background-repeat:no-repeat;
+    opacity:0.9;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:red;
+    text-decoration:none;
+    cursor: pointer;
+    transform: translateY(-0.6rem) !important;
+    transition: transform 150ms !important;    
+}
+a[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+.skill{
+    margin-left:400px;
+}
+.Tintern{
+    margin-left:180px;
+    margin-right:100px;
+}
+.pro{
+  margin-left:180px;
+  margin-right:-90px;
+}
+svg{
+    margin-bottom:25px;
+}
+a:active{
+    color:chartreuse;
+}
+.sizeInc{
+    font-size:23px;
+}
+.home{
+    margin-top:100px;
+    margin-left:300px;
+}
+.subHead{
+    margin-left:300px;
+    font-size:25px;
+}
+
+
+@media (min-width: 320px) and (max-width: 1023px){
+  h1{
+
+  }
+  .heading{
+    font-size:55px;
+  }
+  .home{
+    margin-top:50px;
+    margin-left:70px;
+    font-size:40px;
+  }
+  .subHead{
+    margin-left:70px;
+    font-size:25px;
+  }
+  #about{
+    background-image: url("https://t3.ftcdn.net/jpg/03/67/13/74/360_F_367137432_ofpF6Pgb6d3z4KwDHOa0GYV0NaXbht6M.jpg");
+  }
+  .skill{
+    margin-left:5px;
+  }
+  .pro{
+    margin-left:20px;
+    margin-bottom:50px;
+  }
+  .proc{
+    margin-left:0px;
+  }
+  #project{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvFMwlGRMWMSMjx2VoVMFQARXCPea43uL5Yg&usqp=CAU");
+  }
+  .Tintern{
+    margin-left:16px;
+  }
+  .progress-bar{
+    aria-valuemax:200;
+  }
+}
